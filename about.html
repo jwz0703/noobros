@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我們 - 不是哥們</title>
+    <style>
+        body {
+            font-family: 'Microsoft JhengHei', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            overflow-x: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #3498db;
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #cceaff, #fdf8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.312);
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            margin: 0 0.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background-color: #1f618d;
+            transform: scale(1.05);
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ecf0f1;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+        .container img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        .content {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+        }
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid #3498db;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #7f8c8d;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" target="_blank" style="color: white; text-decoration: none;">不是哥們</a></h1>
+        <nav>
+            <a href="index.html">首頁</a>
+            <a href="about.html">關於我們</a>
+            <a href="services.html">服務</a>
+            <a href="contact.html">聯絡我們</a>
+        </nav>
+    </header>
+    <div class="main-content">
+        <div class="container">
+            <h1>關於我們</h1>
+            <img src="https://i0.wp.com/tva2.sinaimg.com/large/c9c053f8ly1hogd5s08s9j20ss0somy9.jpg" alt="華麗的圖片">
+            <div class="content">
+                <p>不是哥們，這個你真得刪，我沒事，但是我有個哥們你知道吧，我跟他情同手足，我怕他不小心看到破防了，我當然沒事啊，哈哈哈哈，這期刪了唄，這跟我朋友的經驗有點相似，不過我是無所謂的，沒什麼感覺，我不輕易破防的，但是我一個朋友可能有點汗流浹背了，他不太舒服想睡了，當然不是我哈，我一直都是行的，以一個旁觀者的心態看吧，也不至於破防吧，就是想照顧下我朋友的感受，他有點破防了，還是建議刪了吧，當然刪不刪隨你，因為我是沒感覺的，就是為朋友感到不平罷了。</p>
+                <blockquote>
+                    兄，予不以畏，但恐吾友視之覆哀啼，然弟無妨，笑之。故煩兄收上述所言。故交與所言相似，某無恙，視之無感。素友於旁，揮汗如雨，如有大疾，乃席地眠之，非吾所為，余視其大恐，故顧之，觀其如豎梯立於墻，敵破而入，望兄刪其言。予不以為然。其行在兄。吾為故交所不平也。
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
